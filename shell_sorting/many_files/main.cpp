@@ -1,5 +1,5 @@
 #include "pa.hpp"
-#include "shell_sortings.hpp"
+#include "shell_sorting.hpp"
 
 int main() {
     const int arr_size = 8;
