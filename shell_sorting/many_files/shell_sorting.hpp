@@ -3,7 +3,7 @@
 
 namespace aba {
 	namespace sortings {
-		void shell_sort(int* arr, int size);
+		void shell_sort(int* const arr, const int size);
 	}
 }
 

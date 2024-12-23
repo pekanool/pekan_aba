@@ -1,6 +1,6 @@
 ﻿#include "shell_sorting.hpp"
 
-void aba::sortings::shell_sort(int* arr, int size) {
+void aba::sortings::shell_sort(int*  const arr, const int size) {
     for (int gap = size / 2; gap > 0; gap /= 2) {
         for (int i = gap; i < size; i++) {
             int temp = arr[i];
